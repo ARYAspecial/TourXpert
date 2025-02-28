@@ -1,4 +1,4 @@
-# TourXpert - Travel and Tourism Management System
+# TourXpert - Tourism in Bihar
 
 ## Project Overview
 TourXpert is a Java-based Travel and Tourism Management System developed using NetBeans, MySQL Workbench, and JDBC.
