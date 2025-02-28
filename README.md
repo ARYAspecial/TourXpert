@@ -1,28 +1,31 @@
-# TourXpert
-Tourism in Bihar
+# TourXpert - Travel and Tourism Management System
+
+## Project Overview
+TourXpert is a Java-based Travel and Tourism Management System developed using NetBeans, MySQL Workbench, and JDBC.
+
+## Tech Stack
+- **Java (JDK 17)**
+- **NetBeans IDE**
+- **MySQL Workbench**
+- **JDBC (mysql-connector-java-8.0.28.jar)**
 
 
+## Setup Guide
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/TourXpert.git
+   ```
+2. Open the project in NetBeans.
+3. Add `mysql-connector-java-8.0.28.jar` to the project libraries.
+4. Configure the MySQL database using the provided SQL scripts.
+5. Run the application.
 
-# BUILD OUTPUT DESCRIPTION
+## Contribution
+Feel free to contribute by submitting issues and pull requests!
 
-
-When you build an Java application project that has a main class, the IDE
-automatically copies all of the JAR
-files on the projects classpath to your projects dist/lib folder. The IDE
-also adds each of the JAR files to the Class-Path element in the application
-JAR files manifest file (MANIFEST.MF).
-
-To run the project from the command line, go to the dist folder and
-type the following:
-
-java -jar "Travel_Management_System.jar" 
-
-To distribute this project, zip up the dist folder (including the lib folder)
-and distribute the ZIP file.
-
-Notes:
-
-* If two JAR files on the project classpath have the same name, only the first
+## License
+[MIT License](LICENSE)
+ the same name, only the first
 JAR file is copied to the lib folder.
 * Only JAR files are copied to the lib folder.
 If the classpath contains other types of files or folders, these files (folders)
